@@ -1,0 +1,28 @@
+:root{
+    --color-link: #831619;
+    --color-link-hover: #1E618B;
+    --color-link-danger: #ce0c11;
+    --color-tx-danger: #f2f2f2;
+    --color-bg-header: #BCB90D;
+    --color-tx-header: #222;
+    --color-border: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid var(--color-border);
+    padding: 12px;
+    text-align: center;
+}
